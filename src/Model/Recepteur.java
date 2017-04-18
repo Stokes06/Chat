@@ -18,6 +18,9 @@ public class Recepteur extends Observable implements Runnable{
     Client cli;
    
     String msg;
+    
+    String menglon = "best city in the world";
+    
     public Recepteur(Client _cli)
     {
         this.cli = _cli;
